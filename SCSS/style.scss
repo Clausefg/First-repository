@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    .card1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        .card1-box{
+           font-family: sans-serif;
+           display: flex;
+           flex-direction: column;
+           gap: 30px;
+           h1{
+            font-size: 64px;
+           }
+           input{
+            border: 0px;
+            border-bottom: 2px solid black;
+            border-radius: 0px;
+            background-color: transparent;
+            width: 360px;
+            height: 50px;
+            padding-left: 10px;
+            font-size: 16px;
+           }
+           input:hover{
+            background-color: whitesmoke;
+            transition: all 0.2s ease;
+            box-shadow: 3px 2px 1px 1px;
+
+           }
+           input:active{
+            background-color: whitesmoke;
+            border: 1px;
+            transition: all 0.1s;
+            box-shadow: 3px 3px 1px 1px;
+           }
+        }
+        .card1-box2{
+            font-family: sans-serif;
+            button{
+                border: 0px;
+                border-radius: 15px;
+                background-color: blue;
+                width: 100px;
+                height: 30px;
+            }
+           a{
+            color: blue;
+           }
+        }
+    }
+}
